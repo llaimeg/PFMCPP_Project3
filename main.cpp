@@ -83,51 +83,51 @@ Main Object: Car Interior
         Name 4 nouns you'll find on the [Sub Object]
             1) paddle shifters
             2) 'cruise control' controls
-            3) 
-            4) 
+            3) volume control
+            4) phone control
         Name 2 actions that the [Sub Object] can do:
             1) adjust cruise control settings.
-            2)
+            2) adjust the volume of the speakers
         
     Sub Object: Instrument Cluster
         Name 4 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
-            4)
+            1) velocity meter
+            2) fuel meter
+            3) rpm meter
+            4) oil pressure meter
         Name 3 actions that the [Sub Object] can do:
-            1)
-            2)
-            3)
+            1) move needle to meter the velocity of the car
+            2) move needle to meter the rpm of the car
+            3) meter the fuel of the deposit
     
     Sub Object: Environment Controls
         Name 3 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
+            1) temperature control
+            2) flow control
+            3) defrost control
         Name 3 actions that the [Sub Object] can do:
-            1)
-            2)
-            3)
+            1) change the temperature in the car
+            2) choose where the air hits
+            3) hit hot air to the windows to defrost them
 
     Sub Object: Infotainment System
         Name 3 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
+            1) radio
+            2) music
+            3) gps
         Name 3 actions that the [Sub Object] can do:
-            1)
-            2)
-            3)
+            1) turn on/off the radio
+            2) turn on/off the music
+            3) turn on/off the gps
 
     Sub Object: Seat 
         Name 3 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
+            1) leve to move forward/backward
+            2) leve to move raise/lower
+            3) leve to incline/decline
         Name 2 actions that the [Sub Object] can do:
-            1)
-            2)
+            1) move the seat forward
+            2) incline the seat
 */
 
 /*
@@ -196,53 +196,53 @@ Part 1b - Step 2: Assignment
         c) pick properties that can eventually be represented with 
         'int float double bool char std::string'.
 
-Thing 1)
+Thing 1) Computer
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) ram
+    2) processor speed
+    3) storage capacity
+    4) number of ports
+    5) operating sistem
 3 things it can do:
-    1)
-    2)
-    3)
+    1) run aplications
+    2) connect to wifi
+    3) store data
 
-Thing 2)
+Thing 2) tree
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) height
+    2) age
+    3) type of leaves
+    4) trunk diameter
+    5) evergreen
 3 things it can do:
-    1)
-    2)
-    3)
+    1) photosynthesize
+    2) provide oxigen
+    3) produce fruits
 
-Thing 3)
+Thing 3) book
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of pages
+    2) author name
+    3) genre
+    4) publication year
+    5) price
 3 things it can do:
-    1)
-    2)
-    3)
+    1) tell a story
+    2) education
+    3) be borrowed
 
-Thing 4)
+Thing 4) coffe mig
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) capacity
+    2) material
+    3) handle existence
+    4) color
+    5) height
 3 things it can do:
-    1)
-    2)
-    3)
+    1) contain liquid
+    2) keep beverages hot or cold
+    3) be comfortably (handle)
 */
 
 /*
