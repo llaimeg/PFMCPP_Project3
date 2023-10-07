@@ -434,65 +434,65 @@ example:
     You will need to provide 5 properties and 3 member functions of that Engine object in plain English.
     Remember to pick properties that can be represented with 'int float double bool char std::string'.
 
-Thing 5)
+Thing 5) lighthing system
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of light fixtures (int)
+    2) light intensity levels (int)
+    3) color temperature range (std::string)
+    4) motion sensing capability (bool)
+    5) connected devices (std::string)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) adjust brightness and color of lights
+    2) automatically turn on or of bassed on motion
+    3) integrate with other smart devices for automation
 
-Thing 6)
+Thing 6) thermostat
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) current temperature(float)
+    2) target temperatur(float)
+    3) heating mode (bool)
+    4) humidity level (float)
+    5) schedule programming (std::string)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) regulate indoor temperature
+    2) adjust temperature settings according to user preferences
+    3) provide energy efficiency recommendations
 
-Thing 7)
+Thing 7) security system
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of cameras (int)
+    2) door and window sensors(int)
+    3) alarm status (bool)
+    4) acces logs (std::string)
+    5) emergency contacts (std::string)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) monitor the premise for intruders
+    2) sound alarms in case of security breaches
+    3) send alerts or notifications to homeowners
 
-Thing 8)
+Thing 8) entertaiment system
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of speakers (int)
+    2) supported audio formats (std::strings)
+    3) screen size (double)
+    4) inputs ports (std::string)
+    5) installed apps (std::string)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) play audio and video content
+    2) stream media from online sources
+    3) provide acces to gaming consoles and streaming services
 
-Thing 9)
+Thing 9) voice assistant
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) voice recogniton accuracy (float)
+    2) supported languages (std::string)
+    3) integration with smart devices(bool)
+    4) personalization options (std::string)
+    5) search and quey capabilities (std::string)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) respond to voice commands and queries
+    2) control connected smart devices
+    3) provide information and perform task based on user requets
  */
 
 /*
