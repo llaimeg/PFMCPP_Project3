@@ -198,11 +198,11 @@ Part 1b - Step 2: Assignment
 
 Thing 1) Computer
 5 properties:
-    1) ram
-    2) processor speed
-    3) storage capacity
-    4) number of ports
-    5) operating sistem
+    1) ram (int)
+    2) processor speed (float)
+    3) storage capacity (int)
+    4) number of ports (int)
+    5) operating sistem (std::string)
 3 things it can do:
     1) run aplications
     2) connect to wifi
@@ -210,11 +210,11 @@ Thing 1) Computer
 
 Thing 2) tree
 5 properties:
-    1) height
-    2) age
-    3) type of leaves
-    4) trunk diameter
-    5) evergreen
+    1) height (float)
+    2) age (int)
+    3) type of leaves (std::string)
+    4) trunk diameter (float)
+    5) evergreen (std::string)
 3 things it can do:
     1) photosynthesize
     2) provide oxigen
@@ -222,11 +222,11 @@ Thing 2) tree
 
 Thing 3) book
 5 properties:
-    1) number of pages
-    2) author name
-    3) genre
-    4) publication year
-    5) price
+    1) number of pages (int)
+    2) author name (std::string)
+    3) genre (std::string)
+    4) publication year (int)
+    5) price (float)
 3 things it can do:
     1) tell a story
     2) education
@@ -234,11 +234,11 @@ Thing 3) book
 
 Thing 4) coffe mig
 5 properties:
-    1) capacity
-    2) material
-    3) handle existence
-    4) color
-    5) height
+    1) capacity (int)
+    2) material (std::string)
+    3) handle existence (bool)
+    4) color (std::string)
+    5) height (float)
 3 things it can do:
     1) contain liquid
     2) keep beverages hot or cold
@@ -337,17 +337,17 @@ Define an object that is made of 5 sub-objects.
     These 5 sub-objects will not be defined using Primitives, but instead will be their own UDTs 
     you'll define these 5 sub-objects in Part 1d.
 
-Thing 10)
+Thing 10) smart home system
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) lighting system
+    2) thermostat
+    3) security system
+    4) enterteinment system
+    5) voice assistant
 3 things it can do:
-    1)
-    2)
-    3)
+    1) control lights level 
+    2) regulate temperature
+    3) monitor and segure the home
  */
 
  /*
