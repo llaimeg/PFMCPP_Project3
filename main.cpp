@@ -83,51 +83,51 @@ Main Object: Car Interior
         Name 4 nouns you'll find on the [Sub Object]
             1) paddle shifters
             2) 'cruise control' controls
-            3) 
-            4) 
+            3) volume control
+            4) phone control
         Name 2 actions that the [Sub Object] can do:
             1) adjust cruise control settings.
-            2)
+            2) adjust the volume of the speakers
         
     Sub Object: Instrument Cluster
         Name 4 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
-            4)
+            1) velocity meter
+            2) fuel meter
+            3) rpm meter
+            4) oil pressure meter
         Name 3 actions that the [Sub Object] can do:
-            1)
-            2)
-            3)
+            1) move needle to meter the velocity of the car
+            2) move needle to meter the rpm of the car
+            3) meter the fuel of the deposit
     
     Sub Object: Environment Controls
         Name 3 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
+            1) temperature control
+            2) flow control
+            3) defrost control
         Name 3 actions that the [Sub Object] can do:
-            1)
-            2)
-            3)
+            1) change the temperature in the car
+            2) choose where the air hits
+            3) hit hot air to the windows to defrost them
 
     Sub Object: Infotainment System
         Name 3 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
+            1) radio
+            2) music
+            3) gps
         Name 3 actions that the [Sub Object] can do:
-            1)
-            2)
-            3)
+            1) turn on/off the radio
+            2) turn on/off the music
+            3) turn on/off the gps
 
     Sub Object: Seat 
         Name 3 nouns you'll find on the [Sub Object]
-            1)
-            2)
-            3)
+            1) leve to move forward/backward
+            2) leve to move raise/lower
+            3) leve to incline/decline
         Name 2 actions that the [Sub Object] can do:
-            1)
-            2)
+            1) move the seat forward
+            2) incline the seat
 */
 
 /*
@@ -196,53 +196,7 @@ Part 1b - Step 2: Assignment
         c) pick properties that can eventually be represented with 
         'int float double bool char std::string'.
 
-Thing 1)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
 
-Thing 2)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 3)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 4)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
 */
 
 /*
@@ -337,17 +291,7 @@ Define an object that is made of 5 sub-objects.
     These 5 sub-objects will not be defined using Primitives, but instead will be their own UDTs 
     you'll define these 5 sub-objects in Part 1d.
 
-Thing 10)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
+
  */
 
  /*
@@ -434,65 +378,7 @@ example:
     You will need to provide 5 properties and 3 member functions of that Engine object in plain English.
     Remember to pick properties that can be represented with 'int float double bool char std::string'.
 
-Thing 5)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
 
-Thing 6)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 7)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 8)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
-
-Thing 9)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
  */
 
 /*
@@ -544,13 +430,125 @@ MOVE THEM to the space below this block comment and put them in numerical order
     I only want to see the 10 UDTs written BELOW this block comment, in numerical order (1 - 10).
     simply CUT and PASTE them in the space provided below:
 */
+Thing 1) Computer
+5 properties:
+    1) ram (int)
+    2) processor speed (float)
+    3) storage capacity (int)
+    4) number of ports (int)
+    5) operating sistem (std::string)
+3 things it can do:
+    1) run aplications
+    2) connect to wifi
+    3) store data
 
+Thing 2) tree
+5 properties:
+    1) height (float)
+    2) age (int)
+    3) type of leaves (std::string)
+    4) trunk diameter (float)
+    5) evergreen (std::string)
+3 things it can do:
+    1) photosynthesize
+    2) provide oxigen
+    3) produce fruits
 
+Thing 3) book
+5 properties:
+    1) number of pages (int)
+    2) author name (std::string)
+    3) genre (std::string)
+    4) publication year (int)
+    5) price (float)
+3 things it can do:
+    1) tell a story
+    2) education
+    3) be borrowed
 
+Thing 4) coffe mig
+5 properties:
+    1) capacity (int)
+    2) material (std::string)
+    3) handle existence (bool)
+    4) color (std::string)
+    5) height (float)
+3 things it can do:
+    1) contain liquid
+    2) keep beverages hot or cold
+    3) be comfortably (handle)
+    
+Thing 5) lighthing system
+5 properties:
+    1) number of light fixtures (int)
+    2) light intensity levels (int)
+    3) color temperature range (std::string)
+    4) motion sensing capability (bool)
+    5) connected devices (std::string)
+3 things it can do:
+    1) adjust brightness and color of lights
+    2) automatically turn on or of bassed on motion
+    3) integrate with other smart devices for automation
 
+Thing 6) thermostat
+5 properties:
+    1) current temperature(float)
+    2) target temperatur(float)
+    3) heating mode (bool)
+    4) humidity level (float)
+    5) schedule programming (std::string)
+3 things it can do:
+    1) regulate indoor temperature
+    2) adjust temperature settings according to user preferences
+    3) provide energy efficiency recommendations
 
+Thing 7) security system
+5 properties:
+    1) number of cameras (int)
+    2) door and window sensors(int)
+    3) alarm status (bool)
+    4) acces logs (std::string)
+    5) emergency contacts (std::string)
+3 things it can do:
+    1) monitor the premise for intruders
+    2) sound alarms in case of security breaches
+    3) send alerts or notifications to homeowners
 
+Thing 8) entertaiment system
+5 properties:
+    1) number of speakers (int)
+    2) supported audio formats (std::strings)
+    3) screen size (double)
+    4) inputs ports (std::string)
+    5) installed apps (std::string)
+3 things it can do:
+    1) play audio and video content
+    2) stream media from online sources
+    3) provide acces to gaming consoles and streaming services
 
+Thing 9) voice assistant
+5 properties:
+    1) voice recogniton accuracy (float)
+    2) supported languages (std::string)
+    3) integration with smart devices(bool)
+    4) personalization options (std::string)
+    5) search and quey capabilities (std::string)
+3 things it can do:
+    1) respond to voice commands and queries
+    2) control connected smart devices
+    3) provide information and perform task based on user requets
+
+Thing 10) smart home system
+5 properties:
+    1) lighting system
+    2) thermostat
+    3) security system
+    4) enterteinment system
+    5) voice assistant
+3 things it can do:
+    1) control lights level 
+    2) regulate temperature
+    3) monitor and segure the home
 
 /*
 =================
